@@ -31,12 +31,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/72786ef6-f49c-4f7e-98ca-5f795ff435ea)
+ 
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/97996bcc-4910-4c5b-842a-5351e5d8adee)
 
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-After running the VM(virtual machine), go to Control Panel inside the VM -> Programs -> Turn Windows features on or off, and check "Internet Information Services" box. Inside "Internet Information Services" go to "World Wide Web Services" and under that check the "CGI" box. under 
+<p>After running the VM(virtual machine), go to Control Panel inside the VM -> Programs -> Turn Windows features on or off, and check "Internet Information Services" box. Inside "Internet Information Services" go to "World Wide Web Services" and under that check the "CGI" box. under 
 </p>
 <br />
 
