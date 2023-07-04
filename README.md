@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After running the VM(virtual machine), go to Control Panel inside the VM -> 
+After running the VM(virtual machine), go to Control Panel inside the VM -> Programs -> Turn Windows features on or off, and check "Internet Information Services" box. Inside "Internet Information Services" go to "World Wide Web Services" and under that check the "CGI" box. under 
 </p>
 <br />
 
