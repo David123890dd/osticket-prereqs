@@ -83,7 +83,7 @@ Create a new folder named "PHP"
  
  ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/f43ef26d-7dc6-4d0b-bdcd-c8c3786b571d)
 
-Go to this <a href="https://linkedin.com/in/JaneDoe">link</a> and download all the files in it
+Go to this <a href="https://docs.google.com/document/d/1zauJKAndmBDyZ0eXRvAOSF9e0xWSQmLket6CgvUPITc/edit">link</a> and download all the files in it
 </p>
 <br />
 
