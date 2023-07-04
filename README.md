@@ -66,7 +66,83 @@ Under "Common HTTP features", Check all the boxes inside it.
 
 
 </p>
+
 <p>
 To check if ISS is working, Go to a search engine and type "127.0.0.1" and you should have a web that looks like this.
+</p>
+<br />
+
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/398cc3bb-6ff0-403c-b100-8846f51e4ca5)
+
+<p>
+Create a new folder named "PHP"
+
+</p>
+<p>
+ 
+ ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/f43ef26d-7dc6-4d0b-bdcd-c8c3786b571d)
+
+Go to this <a href="https://linkedin.com/in/JaneDoe">link</a> and download all the files in it
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
+</p>
+<br />
+
+</p>
+<p>
+
 </p>
 <br />
