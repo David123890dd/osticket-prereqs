@@ -35,30 +35,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/97996bcc-4910-4c5b-842a-5351e5d8adee)
 
 </p>
-<p>After running the VM(virtual machine), go to Control Panel inside the VM -> Programs -> Turn Windows features on or off, and check "Internet Information Services" box. Inside "Internet Information Services" go to "World Wide Web Services" and under that check the "CGI" box. under 
+<p>After running the VM(virtual machine), go to Control Panel inside the VM -> Programs -> Turn Windows features on or off, and check "Internet Information Services" box.
+</p>
+<br />
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/126eedfb-8008-4a8f-bec8-a503d6a0f14b)
+
+<p>
+
+</p>
+<p>
+Under "Internet Information Services", Check the "World Wide Web Services" box then click ok.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/ad1b6936-45f6-454b-82e8-3ec86eb9b013)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Under "Common HTTP features", Check all the boxes inside it.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/3f9f5520-9bf6-4b0b-a6e1-ccf1aa99385b)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To check if ISS is working, Go to a search engine and type "127.0.0.1" and you should have a web that looks like this.
 </p>
 <br />
