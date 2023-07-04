@@ -124,6 +124,14 @@ standard config.
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/7bf2b25f-62d0-4025-b7ba-4b1eeac80fcc)
 
+open Internet Information Service Manager
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/5d144664-e818-417b-8a1b-3d360e092cc4)
+
+Double click PHP manager
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/69753cd8-249a-4442-8963-a9d26e7d47c8)
+
 
 
 </p>
