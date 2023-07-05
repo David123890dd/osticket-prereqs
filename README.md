@@ -56,6 +56,11 @@ Under "Internet Information Services", Check the "World Wide Web Services" box t
 </p>
 <p>
 Under "Common HTTP features", Check all the boxes inside it.
+
+ 
+ ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/5c59f4b9-9aef-4d6f-a031-4aee6a730d38)
+ 
+Check CGI under Application Development Features
 </p>
 <br />
 
@@ -132,7 +137,33 @@ Double click PHP manager
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/69753cd8-249a-4442-8963-a9d26e7d47c8)
 
+select the "php-cgi" under the PHP folder as the path and click "ok"
 
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/69c03e55-01fa-4d59-b44f-bbaf82a9b99e)
+hit the "home" icon
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/a679600a-a307-4ba3-adcd-3d34359921ae)
+
+ click "Restart"
+ 
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9402fcc2-663a-4b42-8cca-67b88b452d56)
+
+Download the sixth link 
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/4bf5e296-01bb-4436-b077-31e21b9a64a2)
+
+open the folder and extract the "upload" folder to wwwroot under inetpub 
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/fb2cb808-1372-43e3-babe-091b079ad726)
+
+rename the "upload" folder to **EXACTLY** "osTicket"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9ec040dc-03ff-46fe-9dad-3b240346a013)
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/648b3d6b-6780-4a45-bfdd-ef39771521a5)
+
+Restart ISS again
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9402fcc2-663a-4b42-8cca-67b88b452d56)
 
 </p>
 <br />
