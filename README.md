@@ -216,9 +216,10 @@ Check full control
 
 click Ok --> "Apply" and "Ok"
 
-go back to the osTicket browser and click "Continue". Choose a Helpdesk Name and a Default Email(it does not have to be an actual Email)
+go back to the osTicket browser and click "Continue". Choose a Helpdesk Name and a Default Email(it does not have to be an actual Email). The default email can't be the same as the email in the admin section
 
-![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9b58db01-fc9d-4a8d-9dd8-a3122139521b)
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/ca40bc8f-eb61-42d1-801f-6b3a84171979)
+
 
 go to the "Admin" section and setup everything. The email will be used to login.
 
@@ -233,10 +234,56 @@ click "New" and type the password for the root that was setup earlier.
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/cfbc7667-37f9-4ae9-b7b7-ffdec0c25238)
 
+After typing in the password click "open"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/ff066650-5084-4a30-b07b-0d8f7efc3d1b)
+
+
 Go to the osTicket website and in the "Database Settings" and enter "root" for the username and the password for the root.
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/eac0f000-3a07-4c6c-99af-ffab05afbc94)
 
+Right click "Unnamed" and select "create new" and select "Database"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/db176aaa-5af4-4574-9fe4-9cfabb634cc4)
+
+Type in "osTicket" and lick "Ok"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/700136e8-27a7-40ca-a36a-7f4da49b8d8f)
+
+type in "osTicket" in MySQL Database on the osTicket website
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/18d07d03-10ce-43de-a166-d2927445eef3)
+
+When you click Install it should look like this:
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/82ff339b-5366-49d1-b141-52fd69140fa2)
+
+And to clean up everything, go to files and delete the "setup" file
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/49f8dd40-357d-4880-b67e-b97f71834956)
+
+in the "ost.config.php", set the permission to "Read only" by right clicking it --> Properties --> Security --> Advanced
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/81a6721e-c3de-46d9-b5f5-c4533fd0b2cb)
+
+select "Everyone" and click "Edit"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/3a0d30af-0ac5-430e-bcac-8e172740c5b1)
+
+select "Read & execute" and "Read"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/60d8ac21-c0bc-4839-9c8f-2a754c80fd2f)
+
+ click "apply" and "close"
+
+The 8th link is for admin login and the 9th is for end-users
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/3738adef-5b4c-4296-b210-21702f8fed0f)
+
+and that is it for the osTicket installation
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/ed0ea8be-c243-4ea9-a5fe-a90017b541b3)
 
 
 </p>
