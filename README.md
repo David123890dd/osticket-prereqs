@@ -125,7 +125,7 @@ standard config.
 
  ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/a06893d7-2450-4711-bb16-11c9b6f66e7a)
 
- Setup your password.
+ Setup your password and remember it because you will need to use it later.
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/7bf2b25f-62d0-4025-b7ba-4b1eeac80fcc)
 
@@ -164,6 +164,80 @@ rename the "upload" folder to **EXACTLY** "osTicket"
 Restart ISS again
 
 ![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9402fcc2-663a-4b42-8cca-67b88b452d56)
+
+In ISS, go to Sites -> Default Web Site, and select osTicket. 
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/89124610-bbeb-410f-a104-20157d50a4df)
+
+Click "Browse *:80(http)"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/814431bc-c66b-4463-a296-fe43d585e191)
+
+If everything is working you should see this:
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/70ca63f8-75d3-4db2-8c8a-68c2b13f9cd6)
+
+
+go back to PHP Manager in ISS and click Enable or disable an extension
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/91a44b73-edfd-48fd-ad99-de2dfb4b2b31)
+
+Enable: php_imap.dll <br/>
+Enable: php_intl.dll <br/>
+Enable: php_opcache.dll <br/>
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/25d279be-4fcf-43b4-8c06-ed11ee7e0c5d)
+
+Refresh the osTicket website and you will see someof the red X go away
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/e6173ff8-c2ee-40b1-97b0-1c413600eeb7)
+
+go to "ost-sampleconfig.php" and rename it to "ost-config.php"
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/8d80187d-12bd-4ceb-814c-e3abdb4e8ebc)
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/cc225e3f-07ba-47ea-ad06-3bb3d434c662)
+
+right click "ost-config.php" and go to properties --> Security --> Advanced --> Disable Inheritance --> Remove all Inherited Permissions from this object.
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/526b9eb3-4ed7-45a3-896a-ed6b2825041d)
+
+Click Add
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/f9e06433-5f22-435f-b0c0-acdf706e9a3f)
+
+select a principal and type "Everyone" in the box
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/8dbbb463-9282-4d8e-861e-7d63191e8f27)
+
+Check full control
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/61310230-c628-429c-b710-0bcf72f29356)
+
+click Ok --> "Apply" and "Ok"
+
+go back to the osTicket browser and click "Continue". Choose a Helpdesk Name and a Default Email(it does not have to be an actual Email)
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/9b58db01-fc9d-4a8d-9dd8-a3122139521b)
+
+go to the "Admin" section and setup everything. The email will be used to login.
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/39aaedc8-e4f2-40c4-a857-97ae1f30286c)
+
+Download the seventh link and go through the setup.
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/5230586a-b330-45d3-9228-ea660c546812)
+
+<br/>
+click "New" and type the password for the root that was setup earlier.
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/cfbc7667-37f9-4ae9-b7b7-ffdec0c25238)
+
+Go to the osTicket website and in the "Database Settings" and enter "root" for the username and the password for the root.
+
+![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/eac0f000-3a07-4c6c-99af-ffab05afbc94)
+
+
 
 </p>
 <br />
