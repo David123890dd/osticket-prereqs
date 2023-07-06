@@ -277,7 +277,7 @@ Enable: php_opcache.dll <br/></h3>
 
 <h3>and that is it for the osTicket installation</h3>
 
-![image](https://github.com/David123890dd/osticket-prereqs/assets/138183500/ed0ea8be-c243-4ea9-a5fe-a90017b541b3)
+
 
 
 </p>
